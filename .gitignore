@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Model weights (downloaded automatically by ultralytics)
+*.pt
+*.onnx
+*.engine
+
+# YOLO output runs
+runs/
+
+# Media files (avoid committing large videos/images)
+*.mp4
+*.avi
+*.mov
+*.jpg
+*.jpeg
+*.png
+!examples/*.jpg
+!examples/*.png
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
